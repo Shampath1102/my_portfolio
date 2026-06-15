@@ -1,6 +1,6 @@
 import { useState, useRef, FormEvent } from 'react';
 import { motion } from 'framer-motion';
-import { Mail, Send, MapPin, Github, Linkedin, MessageSquare } from 'lucide-react';
+import { Mail, Send, MapPin, Github, Linkedin } from 'lucide-react'; // Removed MessageSquare
 
 export default function Contact() {
   const formRef = useRef<HTMLFormElement>(null);
